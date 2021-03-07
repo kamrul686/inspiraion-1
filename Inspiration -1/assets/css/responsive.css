@@ -1,0 +1,202 @@
+@media  (max-width:600px){
+    /* Full body css  */
+    .app-body{
+        background-color: #F1F1F1;
+        /* background-color: rgba(43, 133, 151, 0.623); */
+        border-radius: 25px;
+    }
+    /* Common Css class Srarts */
+    .text-bold{
+        font-weight: 900;
+    }
+    /* Common Css class Ends */
+  .header-section{
+      display: flex;
+  }
+  .person-name{
+      width: 220px;
+  }
+    .person-name h1,h3{
+        font-size: 25px;
+        color: rgb(44, 40, 40);
+        font-weight: 600;
+    }
+    .person-name-title{
+        font-weight: 700;
+        color: black;
+    }
+    .hi_img{
+        max-width: 20px;
+        margin-left: 3px;
+        display: inline;
+    }
+    .search-section{
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .search {
+        background-color: rgb(255, 187, 0);
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        border-radius: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search i{
+        font-size: 18px;
+    }
+    .bar .fas{
+     transform: rotate(90deg);
+     font-weight: 700;
+     font-size: 24px;
+     margin-top: 10px;
+    }
+    /* Categoriged Section or Organized section  */
+    .customized-section{
+        display: flex;
+        justify-content: space-around;
+    }
+    .customized-job{
+        margin-left: 15px;
+        width: 110px;
+        padding: 10px 5px;
+        background-color: #fff;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color:black;
+        font-weight: 700;
+    }
+    .customized-job p{
+        font-size: 17px;
+        margin-top: 15px;
+        margin: 5px 15px 5px 5px;
+    }
+    /* <!-- Number of jobs and category  --> */
+    .job-number{
+        width: 100%;
+        margin: 30px 0px;
+    }
+    .job-number h5{
+        margin-left: 15px;
+    }
+    /* Job info and list */
+    .job-wrapper{
+        margin:10px auto;
+        background-color: white;
+        border-radius: 10px;
+        padding-top: 15px;
+        padding-left: 20px;
+        position: relative;
+    }
+    .job-img{
+        width: 70px;
+        display: inline-block;
+        height: 100%;
+        /* background-color: #000; */
+        
+    }
+    .job-wrapper img{
+        max-width: 70px;
+        border-radius: 20%;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .job-title-container{
+        display: inline-block;
+        /* width: 140px; */
+        margin: 0px 10px;
+    }
+    .job-title{
+        /* margin-top: px; */
+    }
+    .job-title-container .job-title p{
+       margin: 0px;
+       font-size: 16px;
+       color: black;
+    }
+    .job-title-container .job-title span{
+        font-size: 16px;
+        color:rgb(88, 81, 81);
+    }
+    .job-salary{
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(82, 78, 78);
+    }
+    .job-salary span{
+        position: absolute;
+        top: 20px;
+        right: 10px;
+    }
+    /* Suggested  */
+    
+    .suggestion-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        overflow-x: hidden;
+    }
+    .whete_bg{
+        background-color: #D2DCE4;
+    }
+    .yellow_bg{
+        background-color: #F9CC29;
+    }
+    .suggested{
+        width: 100%;
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 15px;
+        padding: 10px 0px;
+    }
+    .suggestion-box{
+        display: flex;
+        margin-left: 20px;
+        width: 200px;
+        border-radius: 18px;
+        padding: 10px 10px;
+    }
+    .suggestion-img img{
+        width: 80px;
+    }
+    .suggestion-title{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .company-name,.job-short-des{
+        margin: 0;
+        padding: 0;
+    }
+    .company-name{
+        font-weight: 900;
+        font-size: 17px;
+    }
+
+
+    /* Bottom Menu  */
+    #bottom-menu-container{
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        padding: 20px 10px;
+        font-size: 40px;
+        background-color: white;
+        bottom: 5px;
+        border-radius: 55px;
+    }
+    .bottom-menu-container i{
+        font-size: 40px;
+    }
+    .profile_img{
+        width: 40px;
+        border-radius: 50%;
+    }
+}
